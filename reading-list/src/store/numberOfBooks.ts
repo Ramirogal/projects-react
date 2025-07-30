@@ -51,11 +51,11 @@ export const useNumberBookStore = create<NumberOfBooks>()(
       },
     }),
     {
-      name: "number-of-books-storage", // El nombre de la clave en localStorage
+      name: "number-of-books-storage",
       partialize: (state) => ({
         booksLibraryCount: state.booksLibraryCount,
         booksListCount: state.booksListCount,
-      }), // Especifica qué parte del estado guardar
+      })
     }
   )
 );
@@ -106,5 +106,4 @@ export const useNumberBookStore = create<NumberOfBooks>()(
       }
     })
   }
-}))
- */
+})) */

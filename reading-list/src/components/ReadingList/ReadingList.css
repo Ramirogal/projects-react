@@ -1,0 +1,67 @@
+.reading-list-section {
+  width: 100%;
+  height: auto;
+  width: 100%;
+  background-color: transparent;
+  min-height: 200px;
+}
+
+.reading-list {
+  max-height: 250px;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+  overflow-y: auto;
+}
+
+.reading-list::-webkit-scrollbar {
+  display: none;
+}
+
+.title-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.title-list {
+  color: #000;
+}
+
+.reset-list-btn {
+  border: none;
+  height: 2.7vw;
+  width: 2.7vw;
+  border-radius: 100px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 1.5vw;
+  font-size: 1.5vw;
+  color: #000;
+}
+
+.reset-list-btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.reset-list-btn:active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .reset-list-btn {
+    font-size: 1.2em;
+    width: 40px;
+    height: 40px;
+  }
+}

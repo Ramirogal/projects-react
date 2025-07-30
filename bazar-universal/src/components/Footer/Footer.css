@@ -1,0 +1,25 @@
+.footer-info-container {
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+  margin-top: 40px;
+  border-top: 2px solid #e5e4e4;;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 10%;
+  span {
+    font-size: .8em;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-info-container {
+    height: 15dvw;
+    margin-top: 20px;
+  }
+}

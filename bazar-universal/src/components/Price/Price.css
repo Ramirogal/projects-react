@@ -1,0 +1,67 @@
+.product-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 16px;
+}
+
+.price-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.without-discount.large {
+  font-weight: 300;
+  font-size: 1.1em;
+  line-height: 1.25;
+  color: rgba(0, 0, 0, .55);
+}
+
+.money-amount.large {
+  font-size: 36px;
+  font-weight: 200;
+}
+
+.discount.large {
+  font-size: 18px;
+  font-weight: 500;
+  color: #00a650;
+}
+
+.without-discount.medium {
+  font-weight: 300;
+  font-size: 1.1em;
+  line-height: 1.25;
+  color: rgba(0, 0, 0, .55);
+}
+
+.money-amount.medium {
+  font-size: 28px;
+  font-weight: 200;
+}
+
+.discount.medium {
+  font-size: 16px;
+  font-weight: 500;
+  color: #00a650;
+}
+
+.without-discount.small {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(0, 0, 0, .55);
+}
+
+.money-amount.small {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.25;
+}
+
+.discount.small {
+  font-size: 14px;
+  font-weight: 500;
+  color: #00a650;
+}

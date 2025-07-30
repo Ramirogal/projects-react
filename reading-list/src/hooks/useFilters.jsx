@@ -1,5 +1,5 @@
 import { useContext, useMemo } from "react";
-import { FilterContext } from "../context/filters";
+import { FilterContext } from "../context/FilterContext";
 
 export function useFilters (books) {
   const { filters } = useContext(FilterContext)

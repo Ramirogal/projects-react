@@ -3,11 +3,11 @@ import { useEffect, useState } from "react";
 export function useFetchById (id) {
   const [product, setProduct] = useState(null)
   
-  if (!id) {
-    setProduct(null)
-  }
-
   useEffect(() => {
+    if (!id) {
+      setProduct(null)
+      return
+    }
     const fetchById = async () => {
       const response = await fetch(`http://localhost:1234/items/${id}`)
       const data = await response.json()
@@ -23,7 +23,6 @@ export function useFetchProducts (query) {
   const [ products, setProducts ] = useState([])
   const [ loading, setLoading ] = useState(false)
   const [ error, setError ] = useState(null)
-  console.log(query)
   useEffect(() => {
     if (!query) {
       setProducts([])

@@ -1,19 +1,9 @@
 import './App.css'
-import { Library } from './components/Library'
-import { ReadingList } from './components/ReadingList'
-import { useNumberBookStore } from './store/numberOfBooks'
+import { HomeLayout } from './components/HomeLayout/HomeLayout'
 
 function App() {
-
-  const booksListCount = useNumberBookStore((state) => state.booksListCount)
-
   return (
-    <>
-      <Library />
-      {
-        booksListCount > 0 && <ReadingList />
-      }
-    </> 
+    <HomeLayout />
   )
 }
 

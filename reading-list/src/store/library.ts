@@ -24,8 +24,8 @@ interface LibraryItem {
 
 interface Library {
   books: LibraryItem[],
-  setBookOnLibrary: (indexBook: number) => void,
-  deleteBookFromLibrary: (indexBook: number) => void,
+  addBook: (indexBook: number) => void,
+  removeBook: (indexBook: number) => void,
   resetLibrary: () => void
 }
 
@@ -37,7 +37,7 @@ export const useLibraryStore = create<Library>()(
         status: "available",
         index: index
       })),
-      setBookOnLibrary: (indexBook) => {
+      addBook: (indexBook) => {
         set((state) => {
           return {
             books: state.books.map((item, index) => {
@@ -46,7 +46,7 @@ export const useLibraryStore = create<Library>()(
           };
         });
       },
-      deleteBookFromLibrary: (indexBook) => {
+      removeBook: (indexBook) => {
         set((state) => {
           return {
             books: state.books.map((book, index) => {
@@ -67,8 +67,8 @@ export const useLibraryStore = create<Library>()(
       }
     }),
     {
-      name: "library-storage", // Nombre para el almacenamiento en localStorage
-      partialize: (state) => ({ books: state.books }) // Especifica qué parte del estado guardar
+      name: "library-storage",
+      partialize: (state) => ({ books: state.books })
     }
   )
 ); 
@@ -79,9 +79,8 @@ export const useLibraryStore = create<Library>()(
     status: "available",
     index: index
   })),
-  setBookOnLibrary: (indexBook) => {
+  addBook: (indexBook) => {
     set((state) => {
-      const newItem = state.books[indexBook]
       return {
         books: state.books.map((item, index) => {
           return index === indexBook ? { ...item, status: "available" } : item
@@ -89,7 +88,7 @@ export const useLibraryStore = create<Library>()(
       }
     })
   },
-  deleteBookFromLibrary: (indexBook) => {
+  removeBook: (indexBook) => {
     set((state) => {
       return {
         books: state.books.map((book, index) => {

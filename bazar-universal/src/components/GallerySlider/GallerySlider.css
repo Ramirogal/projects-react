@@ -1,0 +1,37 @@
+.slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: none;
+}
+
+.slider {
+    aspect-ratio: 10/16;
+  width: 75dvw;
+  height: 75dvw;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-snap-stop: always;
+  display: flex;
+  
+  img {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+    transition: 1s ease-in
+  }
+}
+
+
+@media (max-width: 480px) {
+  .slider-container {
+    display: flex;
+  }
+  
+  .slider {
+    gap: 20px;
+  }
+}

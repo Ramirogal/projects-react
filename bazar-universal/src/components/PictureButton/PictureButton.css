@@ -1,0 +1,28 @@
+.picture-btn {
+  border: 1px solid #b6b3b3;
+  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    border-radius: 4px;
+    object-fit: cover;
+    width: 44px;
+    height: 44px;
+  }
+}
+
+.picture-btn:hover {
+  border: 2px solid #45b6ea;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.picture-btn.active {
+  border: 2px solid #45b6ea;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}

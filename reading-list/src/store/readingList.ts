@@ -15,87 +15,88 @@ interface Book {
   }
 }
 
-interface LibraryItem {
+interface ListItem {
   book: Book,
   index: number
 }
 
 interface ReadingList {
-  booksOnList: LibraryItem []
-  setBookOnList: (book: Book, index: number) => void,
-  deleteBookFromList: (book: Book) => void,
-  deleteList: () => void
+  listOfBooks: ListItem []
+  addBook: (book: Book, index: number) => void,
+  removeBook: (book: Book) => void,
+  resetList: () => void
 }
-
 
 export const useReadingListStore = create<ReadingList>()(
   persist(
     (set) => ({
-      booksOnList: [],
-      setBookOnList: (book, index) => {
+      listOfBooks: [],
+      addBook: (book, index) => {
         set((state) => {
-          const newItem: LibraryItem = { book, index };
-          const newList = [...state.booksOnList, newItem];
-          
+          const newItem: ListItem = { book, index };
+          const newList = [...state.listOfBooks, newItem];
+
           return {
-            booksOnList: newList,
+            listOfBooks: newList,
           }
         })
       },
-      deleteBookFromList: (book) => {
+      removeBook: (book) => {
         set((state) => {
-          const newList = state.booksOnList.filter((bookOnList) => {
-            return bookOnList.book.ISBN !== book.ISBN;
+          const newList = state.listOfBooks.filter((item) => {
+            return item.book.ISBN !== book.ISBN;
           })
-          
+
           return { 
-            booksOnList: newList 
+            listOfBooks: newList 
           }
         })
       },
-      deleteList: () => {
+      resetList: () => {
         set((state) => {
           return {
-            booksOnList: []
+            listOfBooks: []
           }
         })
       }
     }),
     {
-      name: "reading-list-storage", // El nombre de la clave en localStorage
-      partialize: (state) => ({ booksOnList: state.booksOnList }) // Especifica la parte del estado a persistir
+      name: "reading-list-storage",
+      partialize: (state) => ({ listOfBooks: state.listOfBooks})
     }
   )
 )
 
 /* export const useReadingListStore = create<ReadingList>((set) => ({
-  booksOnList: [],
-  setBookOnList: (book, index) => {
+  listOfBooks: [],
+  addBook: (book, index) => {
     set((state) => {
-      const newItem: LibraryItem = { book, index }
-      const newList = [...state.booksOnList, newItem]
+      const newItem: ListItem = { book, index }
+      const newList = [...state.listOfBooks, newItem]
 
       return {
-        booksOnList: newList,
+        listOfBooks: newList,
       }
     })
   },
-  deleteBookFromList: (book) => {
+  removeBook: (book) => {
     set((state) => {
-      const newList = state.booksOnList.filter(bookOnList => {
-        return bookOnList.book.ISBN !== book.ISBN
+      const newList = state.listOfBooks.filter(item => {
+        return item.book.ISBN !== book.ISBN
       })
+      console.log(newList)
+      
       return { 
-        booksOnList: newList 
+        listOfBooks: newList 
       }
     })
   },
-  deleteList: () => {
+  resetList: () => {
     set((state) => {
       return {
-        booksOnList: []
+        listOfBooks: []
       }
     })
   }
 }))
-*/
+ */

@@ -1,0 +1,138 @@
+.product-stock {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.selector-container {
+  position: relative;
+}
+
+.quantity-selector-container {
+  position: relative;
+}
+
+.quantity-selector-btn {
+  background-color: transparent;
+  border: none;
+  color: #000;
+  user-select: pointer;
+  display: flex;
+  align-items: center;
+  gap: 2.5px;
+}
+
+.selection-icon { 
+  color: #3483fa;
+/*   transition: transform .15s ease; */
+  display: flex;
+}
+
+.selector-box {
+  margin: 0;
+  padding: 0;
+  appearance: none;
+  border: none;
+  background-color: #fff;
+  outline: none;
+  position: absolute;
+  z-index: 100;
+  list-style: none;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.quantity-btn {
+  button {
+    text-align: left;
+    width: 100%;
+    padding: 10px 20px;
+    color: rgba(0, 0, 0, .75);
+    font-size: 1em;
+    font-weight: 300;
+  }
+}
+.quantity-btn.isSelected {
+  button {
+    color: #3483fa;
+    font-weight: 600;
+  }
+}
+
+.quantity-btn:hover {
+  background-color: rgba(0, 0, 0, .04);
+  transition: .1s ease-in;
+}
+
+.quantity-label {
+  font-size: 16px;
+  color: rgba(0, 0, 0, .75);
+  font-weight: 200;
+  span {
+    font-weight: 600;
+  }
+}
+
+.quantity-input-container {
+  text-align: left;
+  background-color: rgba(0, 0, 0, .05);
+}
+.quantity-input-box {
+  margin: 0 10px;
+  padding-bottom: 10px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+
+}
+  
+.input-text {
+  background-color: transparent;
+  color: #000;
+  border: 1px solid rgba(0, 0, 0, .3);
+  border-radius: 6px;
+  padding: 10px 5px;
+  font-size: 1em;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .25);
+}
+
+.input-text:focus {
+  box-shadow: none;
+  box-shadow: 0 0 0 .125em #3483fa;
+  outline: 1px #3483fa;
+}
+
+.input-label {
+  font-size: .8em;
+}
+.apply-btn {
+  position: absolute;
+  background-color: #3483fa;
+  color: #fff;
+  border-radius: 3px;
+  right: 10px;
+  font-size: .7em;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.quantity-error {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  color: #f04449;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+
+.stock-available {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.25;
+  color: rgba(0, 0, 0, .55);
+}

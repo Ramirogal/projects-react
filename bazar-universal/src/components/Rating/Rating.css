@@ -1,0 +1,44 @@
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.rating-number {
+  padding-top: 2px;
+  font-weight: 500;
+  margin-right: 8px;
+
+  color: rgba(0, 0, 0, .55)
+}
+
+.rating-number.large {
+  font-size: 20px;
+}
+
+.rating-product.large {
+  font-size: 26px;
+}
+
+
+.rating-product {
+  display: flex;
+  align-items: center;
+  gap: 1.5px;
+  color: #3483fa;
+}
+
+.rating-product.medium {
+  font-size: 16px;
+}
+
+.rating-number.medium {
+  font-size: 14px;
+}
+
+.rating-number.small {
+  font-size: 10px;
+}
+
+.rating-product.small {
+  font-size: 12px;
+}

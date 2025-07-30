@@ -1,38 +1,32 @@
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import { useFetchProducts } from "./useFetchProducts";
 
+import { useSearchStore } from "../store/search";
 
 export function useSearch () {
   const [param] = useSearchParams()
-  const searchParam = param.get('search')
+  const searchState = useSearchStore((state) => state.search)
+  const searchParam = param.get('search') || searchState
   const [search, setSearch] = useState(searchParam)
-  const [searchState, setSearchState] = useState(searchParam)
+  const [searchOnChange, setSearchOnChange] = useState(searchParam)
+  const setSearchState = useSearchStore(state => state.setSearch)
+  
   const navigate = useNavigate()
   
   useEffect (() => {
     setSearch(searchParam)
     setSearchState(searchParam)
   }, [searchParam])
-  
-  const { products, loading, error } = useFetchProducts(searchState)
-  const hasProducts = useMemo(() => {
-    return products?.length > 0
-  }, [products])
-  
 
-  const handleChange = (event) => {
+  const handleChange = useCallback((event) => {
     setSearch(prev => (prev, event.target.value))
-  }
-  const handleSubmit = (event) => {
-    event.preventDefault()
-    setSearchState(search)
-    if (search) navigate(`/items?search=${search}`)
-  }
-  const handleClick = (id) => {
-    const product = products.find(prod => prod.id === id)
-    navigate(`/items/${id}`, { state: { product: product } })
-  }
+  }, [])
 
-  return { search, searchParam, hasProducts, products, error, loading, handleChange, handleSubmit, handleClick}
+  const handleSubmit = useCallback((event) => {
+    event.preventDefault()
+    setSearchOnChange(search)
+    if (search) navigate(`/items?search=${search}`)
+  },[search])
+
+  return { search, searchParam,  handleChange, handleSubmit, searchOnChange}
 }

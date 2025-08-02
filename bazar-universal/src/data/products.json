@@ -97,12 +97,10 @@
       "stock":83,
       "brand":"Apple",
       "category":"laptops",
-      "thumbnail":"https://i.dummyjson.com/data/products/6/thumbnail.png",
+      "thumbnail":"https://cdn-ipoint.waugi.com.ar/26777-thickbox_default/macbook-pro-16-apple-m1-pro-chip-10core-cpu-16core-gpu-1tb-ssd-space-grey.jpg",
       "images":[
-        "https://i.dummyjson.com/data/products/6/1.png",
-        "https://i.dummyjson.com/data/products/6/2.jpg",
-        "https://i.dummyjson.com/data/products/6/3.png",
-        "https://i.dummyjson.com/data/products/6/4.jpg"
+        "hhttps://http2.mlstatic.com/D_NQ_NP_985600-MLA48352540074_112021-O.webp",
+        "https://cdn.mos.cms.futurecdn.net/jpFUzJLSXkvsz38xWas2sC.jpg"
       ]
     },
     {
@@ -115,12 +113,10 @@
       "stock":50,
       "brand":"Samsung",
       "category":"laptops",
-      "thumbnail":"https://i.dummyjson.com/data/products/7/thumbnail.jpg",
+      "thumbnail":"https://i.blogs.es/4a6645/book-s/1366_2000.jpg",
       "images":[
-        "https://i.dummyjson.com/data/products/7/1.jpg",
-        "https://i.dummyjson.com/data/products/7/2.jpg",
-        "https://i.dummyjson.com/data/products/7/3.jpg",
-        "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsqZKe46SZtI0gzHEAZarwG73jnulAgL7SIQ&s",
+        "https://resizer.glanacion.com/resizer/v2/la-portatil-de-la-compania-surcoreana-apuesta-a-ZOPT5HSW3JBGLJ2JGUAVODWHSY.jpg?auth=f3e699a235289e94483e58a2b07c3e0d782dd612a05c113ec4cc469a110649e9&width=768&quality=70&smart=false"
       ]
     },
     {
@@ -133,13 +129,11 @@
       "stock":68,
       "brand":"Microsoft Surface",
       "category":"laptops",
-      "thumbnail":"https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+      "thumbnail":"data:image/jpeg;base64,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",
       "images":[
-        "https://i.dummyjson.com/data/products/8/1.jpg",
-        "https://i.dummyjson.com/data/products/8/2.jpg",
-        "https://i.dummyjson.com/data/products/8/3.jpg",
-        "https://i.dummyjson.com/data/products/8/4.jpg",
-        "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-OT3BFcHsS9pojA0RmGfUWj1ZEQSX7P5iiw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp7NKJ0jEf9j1uH8Bm4NftW7rObXRTZ-_sjQ&s",
+        "https://i.dummyjson.com/data/products/8/3.jpg"
       ]
     },
     {
@@ -152,13 +146,10 @@
       "stock":96,
       "brand":"Infinix",
       "category":"laptops",
-      "thumbnail":"https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+      "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf0iXRNGZiKp7A0mqVhRQlId3OsxHUPmDQfA&s",
       "images":[
-        "https://i.dummyjson.com/data/products/9/1.jpg",
-        "https://i.dummyjson.com/data/products/9/2.png",
-        "https://i.dummyjson.com/data/products/9/3.png",
-        "https://i.dummyjson.com/data/products/9/4.jpg",
-        "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+        "https://m.media-amazon.com/images/I/51+UfXQmjHL._UF1000,1000_QL80_.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQNraQEkFiGa08aNzzr2ySz_oPpsGo7DJ2WA&s"
       ]
     },
     {
@@ -171,12 +162,10 @@
       "stock":89,
       "brand":"HP Pavilion",
       "category":"laptops",
-      "thumbnail":"https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
+      "thumbnail":"https://mla-s1-p.mlstatic.com/733164-MLA48462653165_122021-F.jpg",
       "images":[
-        "https://i.dummyjson.com/data/products/10/1.jpg",
-        "https://i.dummyjson.com/data/products/10/2.jpg",
-        "https://i.dummyjson.com/data/products/10/3.jpg",
-        "https://i.dummyjson.com/data/products/10/thumbnail.jpeg"
+        "https://http2.mlstatic.com/D_NQ_NP_825402-MLU78463097966_082024-O.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiVcQsTwhs4t0cfr8gN1X_yi5RT3Si-Qn9ew&s"
       ]
     },
     {
@@ -191,10 +180,8 @@
       "category":"fragrances",
       "thumbnail":"https://rougeb2car.vtexassets.com/arquivos/ids/192065-800-auto?v=638005085641470000&width=800&height=auto&aspect=true",
       "images":[
-        "https://i.dummyjson.com/data/products/11/1.jpg",
-        "https://i.dummyjson.com/data/products/11/2.jpg",
-        "https://i.dummyjson.com/data/products/11/3.jpg",
-        "https://i.dummyjson.com/data/products/11/thumbnail.jpg"
+        "https://www.siemprefarmacias.com.ar/contenido/productos/original/1647623142-7857.png",
+        "https://acdn-us.mitiendanube.com/stores/001/165/255/products/giorgio-armani-acqua-di-gio-edp-x75ml-2b6ec99cdb1913762417183748491212-1024-1024.jpg"
       ]
     },
     {
@@ -207,13 +194,10 @@
       "stock":52,
       "brand":"Royal_Mirage",
       "category":"fragrances",
-      "thumbnail":"https://i.dummyjson.com/data/products/12/thumbnail.jpg",
+      "thumbnail":"https://royalmirageparfums.com/wp-content/uploads/2024/03/Original-copy.webp",
       "images":[
-        "https://i.dummyjson.com/data/products/12/1.jpg",
-        "https://i.dummyjson.com/data/products/12/2.jpg",
-        "https://i.dummyjson.com/data/products/12/3.png",
-        "https://i.dummyjson.com/data/products/12/4.jpg",
-        "https://i.dummyjson.com/data/products/12/thumbnail.jpg"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiJfikbZr--Ms59ILQs4HA_YUzkyEgCUrYtg&s",
+        "https://rukminim2.flixcart.com/image/850/1000/xif0q/combo-kit/j/o/c/brown-perfume-eau-de-cologne-classic-original-120-ml-set-of-2-2-original-imah2fv6rwvz7etc.jpeg?q=90&crop=false"
       ]
     },
     {
@@ -226,13 +210,9 @@
       "stock":61,
       "brand":"Fog Scent Xpressio",
       "category":"fragrances",
-      "thumbnail":"https://i.dummyjson.com/data/products/13/thumbnail.webp",
+      "thumbnail":"https://i.ebayimg.com/images/g/oJwAAOSwxFVcJiOY/s-l1200.jpg",
       "images":[
-        "https://i.dummyjson.com/data/products/13/1.jpg",
-        "https://i.dummyjson.com/data/products/13/2.png",
-        "https://i.dummyjson.com/data/products/13/3.jpg",
-        "https://i.dummyjson.com/data/products/13/4.jpg",
-        "https://i.dummyjson.com/data/products/13/thumbnail.webp"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBVx_fQzyN_OYysGlgxE-VXAECLRonfXfQ0Q&s"
       ]
     },
     {
@@ -245,12 +225,9 @@
       "stock":114,
       "brand":"Al Munakh",
       "category":"fragrances",
-      "thumbnail":"https://i.dummyjson.com/data/products/14/thumbnail.jpg",
+      "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXje5WhJZ6MK5DD0NdbUwMt8dqjexSVN3wLw&s",
       "images":[
-        "https://i.dummyjson.com/data/products/14/1.jpg",
-        "https://i.dummyjson.com/data/products/14/2.jpg",
-        "https://i.dummyjson.com/data/products/14/3.jpg",
-        "https://i.dummyjson.com/data/products/14/thumbnail.jpg"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScD6gP4Tsu34LTUMIikIjY-DSIHbarBi-roQ&s"
       ]
     },
     {
@@ -263,13 +240,9 @@
       "stock":105,
       "brand":"Lord - Al-Rehab",
       "category":"fragrances",
-      "thumbnail":"https://i.dummyjson.com/data/products/15/thumbnail.jpg",
+      "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCspWGA4JiskXx5tcADHIihZ3mhjSRMRYR-Q&s",
       "images":[
-        "https://i.dummyjson.com/data/products/15/1.jpg",
-        "https://i.dummyjson.com/data/products/15/2.jpg",
-        "https://i.dummyjson.com/data/products/15/3.jpg",
-        "https://i.dummyjson.com/data/products/15/4.jpg",
-        "https://i.dummyjson.com/data/products/15/thumbnail.jpg"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd2gJm7egnVmUBx72ITx4-qydCxJDc_2oetg&s"
       ]
     },
     {
@@ -282,13 +255,9 @@
       "stock":110,
       "brand":"L'Oreal Paris",
       "category":"skincare",
-      "thumbnail":"https://i.dummyjson.com/data/products/16/thumbnail.jpg",
+      "thumbnail":"https://farmacityar.vtexassets.com/arquivos/ids/222219-800-auto?v=637877008666570000&width=800&height=auto&aspect=true",
       "images":[
-        "https://i.dummyjson.com/data/products/16/1.png",
-        "https://i.dummyjson.com/data/products/16/2.webp",
-        "https://i.dummyjson.com/data/products/16/3.jpg",
-        "https://i.dummyjson.com/data/products/16/4.jpg",
-        "https://i.dummyjson.com/data/products/16/thumbnail.jpg"
+        "https://m.media-amazon.com/images/I/71IoE52LztL.jpg"
       ]
     },
     {
@@ -301,12 +270,9 @@
       "stock":78,
       "brand":"Hemani Tea",
       "category":"skincare",
-      "thumbnail":"https://i.dummyjson.com/data/products/17/thumbnail.jpg",
+      "thumbnail":"https://m.media-amazon.com/images/I/61sAPpbnY-L.jpg",
       "images":[
-        "https://i.dummyjson.com/data/products/17/1.jpg",
-        "https://i.dummyjson.com/data/products/17/2.jpg",
-        "https://i.dummyjson.com/data/products/17/3.jpg",
-        "https://i.dummyjson.com/data/products/17/thumbnail.jpg"
+        "https://acdn-us.mitiendanube.com/stores/002/976/153/products/arbol-de-te-10cc1-427bf01b5a19c5af5f16805625060670-1024-1024.jpg"
       ]
     },
     {
@@ -319,13 +285,11 @@
       "stock":88,
       "brand":"Dermive",
       "category":"skincare",
-      "thumbnail":"https://i.dummyjson.com/data/products/18/thumbnail.jpg",
+      "thumbnail":"https://skyatransdermic.com/cdn/shop/files/ACSF3469_2048x2048.jpg?v=1708931995",
       "images":[
-        "https://i.dummyjson.com/data/products/18/1.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV7SaczXMKAkcwEXAb1LEqTVL93qQCDTyd1g&s",
         "https://i.dummyjson.com/data/products/18/2.jpg",
-        "https://i.dummyjson.com/data/products/18/3.jpg",
-        "https://i.dummyjson.com/data/products/18/4.jpg",
-        "https://i.dummyjson.com/data/products/18/thumbnail.jpg"
+        "https://bhubotanicals.com/cdn/shop/files/WhatsAppImage2025-07-07at3.50.10PM.jpg?v=1751884061"
       ]
     },
     {
@@ -338,12 +302,9 @@
       "stock":54,
       "brand":"ROREC White Rice",
       "category":"skincare",
-      "thumbnail":"https://i.dummyjson.com/data/products/19/thumbnail.jpg",
+      "thumbnail":"https://http2.mlstatic.com/D_NQ_NP_822511-MLU73489611148_122023-O.webp",
       "images":[
-        "https://i.dummyjson.com/data/products/19/1.jpg",
-        "https://i.dummyjson.com/data/products/19/2.jpg",
-        "https://i.dummyjson.com/data/products/19/3.png",
-        "https://i.dummyjson.com/data/products/19/thumbnail.jpg"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7YgCbTAuVOL9fdQR_Qv668UPPZ5NYitvTQw&s"
       ]
     },
     {
@@ -356,13 +317,9 @@
       "stock":140,
       "brand":"Fair & Clear",
       "category":"skincare",
-      "thumbnail":"https://i.dummyjson.com/data/products/20/thumbnail.jpg",
+      "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrCKm3dgcZVE_Nu8ARGi8zbYpT9WWiKwEF7g&s",
       "images":[
-        "https://i.dummyjson.com/data/products/20/1.jpg",
-        "https://i.dummyjson.com/data/products/20/2.jpg",
-        "https://i.dummyjson.com/data/products/20/3.jpg",
-        "https://i.dummyjson.com/data/products/20/4.jpg",
-        "https://i.dummyjson.com/data/products/20/thumbnail.jpg"
+        "https://vincecare.com/cdn/shop/files/advance_freckle_Cream_d46cd952-6ba9-40f0-946c-7fc444c6b8ce.jpg?v=1739450152"
       ]
     },
     {
@@ -375,11 +332,10 @@
       "stock":133,
       "brand":"Saaf & Khaas",
       "category":"groceries",
-      "thumbnail":"https://i.dummyjson.com/data/products/21/thumbnail.png",
+      "thumbnail":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuhujWzOJqVUWaXZ0_z9RqnEr0H0R9WoZjSw&s",
       "images":[
-        "https://i.dummyjson.com/data/products/21/1.png",
-        "https://i.dummyjson.com/data/products/21/2.jpg",
-        "https://i.dummyjson.com/data/products/21/3.jpg"
+        "https://www.jiomart.com/images/product/original/491187256/good-life-masoor-dal-500-g-product-images-o491187256-p491187256-3-202306141503.jpg?im=Resize=(420,420)",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk_8bKLivqIEzjp76mwRho2gEgh4_5y_ZwgA&s"
       ]
     },
     {
